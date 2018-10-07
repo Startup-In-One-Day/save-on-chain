@@ -1,0 +1,41 @@
+.coin-img {
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+.coin-options {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cost {
+    color: green;
+  background: white;
+  padding: 10px;
+  font-size: 3rem;
+  border-radius: 5px;
+}
+.selected {
+    border: 1px solid white;
+}
+.unselected {
+  border: 1px solid transparent;
+}
+
+
+.coinselect-button {
+  background-image: linear-gradient(rgb(125, 197, 238), rgb(0, 140, 221) 85%, rgb(48, 162, 228));
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding: 0px 12px;
+  height: 30px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}

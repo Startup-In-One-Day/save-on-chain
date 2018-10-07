@@ -1,0 +1,77 @@
+.App {
+  padding: 15px 3%;
+  text-align: center;
+  font-size: 18px;
+  font-size: 1.8rem;
+      background: #544fbb;
+  background: -moz-linear-gradient(-45deg, #544fbb 0%, #146a5a 100%);
+  background: -webkit-linear-gradient(-45deg, #544fbb 0%,#146a5a 100%);
+  background: linear-gradient(135deg, rgba(84, 79, 187, 0.85) 0%,rgba(20, 106, 90, 0.85) 100%), url(./flare.jpg);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#544fbb', endColorstr='#146a5a',GradientType=1 );
+  background-size: cover;
+  background-position: center;
+}
+
+.App > *:not(:last-child) {
+  clear: both;
+  margin-bottom: 25px;
+}
+
+/* Responsive fonts */ 
+@media only screen and  (max-width: 1200px) {
+  .App {
+    font-size: 1.6rem;
+  } 
+} 
+@media only screen and  (max-width: 800px) {
+  .App {
+    font-size: 1.4rem;
+  } 
+} 
+@media only screen and  (max-width: 600px) {
+  .App {
+    font-size: 1.2rem;
+  }
+} 
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: white;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.burnit-button {
+    background-image: linear-gradient(rgb(125, 197, 238), rgb(0, 140, 221) 85%, rgb(48, 162, 228));
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  padding: 0px 12px;
+  height: 30px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}

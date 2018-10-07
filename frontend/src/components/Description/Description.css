@@ -1,0 +1,13 @@
+.Description {
+  text-align: left;
+  padding: 20px 2%;
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 10px;
+}
+
+.Description > *:first-child {
+  margin-top: 0;
+}
+.Description > *:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,13 @@
+//views/index.pug
+html
+  body
+    form(action="/api/charge", method="post")
+      article
+        label Amount: $1.00
+      script(
+        src="//checkout.stripe.com/v2/checkout.js",
+        class="stripe-button",
+        data-key='pk_test_bU6iUnuJ1OlZcQyNqiPK7O6S',
+        data-locale="auto",
+        data-description="Sample Charge",
+        data-amount="100")
